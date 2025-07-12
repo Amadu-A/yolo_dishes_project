@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>1</id>
+      <size>12</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-07-11 18:41:52.414140+00:00</created>
+      <updated>2025-07-11 19:36:29.416551+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>11</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>1</id>
+          <start>0</start>
+          <stop>11</stop>
+          <url>http://localhost:8080/api/jobs/1</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>admin</username>
+        <email></email>
+      </owner>
+      <assignee>
+        <username>admin</username>
+        <email></email>
+      </assignee>
+      <labels>
+        <label>
+          <name>dish</name>
+          <color>#94ebd3</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>cup</name>
+          <color>#8020c0</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>fork</name>
+          <color>#e0a0c0</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>knife</name>
+          <color>#a04020</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>spoon</name>
+          <color>#d0c0c0</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>teapot</name>
+          <color>#30c040</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>basket</name>
+          <color>#83e070</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2025-07-11 19:41:07.914968+00:00</dumped>
+  </meta>
+  <image id="0" name="frame_000000.jpg" width="3840" height="2160">
+    <polygon label="cup" source="manual" occluded="0" points="1216.00,216.00;1328.00,376.00;1301.33,506.67;1117.33,514.67;1037.33,421.33;1101.33,301.33" z_order="0">
+    </polygon>
+    <polygon label="cup" source="manual" occluded="0" points="1168.00,1469.33;1309.33,1597.33;1290.67,1698.67;1218.67,1786.67;1093.33,1794.67;1042.67,1650.67;1066.67,1570.67" z_order="0">
+    </polygon>
+    <box label="basket" source="manual" occluded="0" xtl="522.40" ytl="349.33" xbr="770.67" ybr="946.67" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="frame_000001.jpg" width="3840" height="2160">
+    <box label="spoon" source="manual" occluded="0" xtl="581.33" ytl="480.00" xbr="682.67" ybr="914.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1026.67" ytl="434.67" xbr="1317.33" ybr="538.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1029.33" ytl="1578.67" xbr="1280.00" ybr="1781.33" z_order="0">
+    </box>
+    <polygon label="cup" source="manual" occluded="0" points="1216.00,216.00;1328.00,376.00;1301.33,506.67;1117.33,514.67;1037.33,421.33;1101.33,301.33" z_order="0">
+    </polygon>
+    <polygon label="cup" source="manual" occluded="0" points="1168.00,1469.33;1309.33,1597.33;1290.67,1698.67;1218.67,1786.67;1093.33,1794.67;1042.67,1650.67;1066.67,1570.67" z_order="0">
+    </polygon>
+    <box label="basket" source="manual" occluded="0" xtl="522.40" ytl="349.33" xbr="770.67" ybr="946.67" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="frame_000002.jpg" width="3840" height="2160">
+    <box label="spoon" source="manual" occluded="0" xtl="581.33" ytl="480.00" xbr="682.67" ybr="914.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1026.67" ytl="434.67" xbr="1317.33" ybr="538.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1029.33" ytl="1578.67" xbr="1280.00" ybr="1781.33" z_order="0">
+    </box>
+    <polygon label="cup" source="manual" occluded="0" points="1216.00,216.00;1328.00,376.00;1301.33,506.67;1117.33,514.67;1037.33,421.33;1101.33,301.33" z_order="0">
+    </polygon>
+    <polygon label="cup" source="manual" occluded="0" points="1168.00,1469.33;1309.33,1597.33;1290.67,1698.67;1218.67,1786.67;1093.33,1794.67;1042.67,1650.67;1066.67,1570.67" z_order="0">
+    </polygon>
+    <box label="basket" source="manual" occluded="0" xtl="522.40" ytl="349.33" xbr="770.67" ybr="946.67" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="frame_000003.jpg" width="3840" height="2160">
+    <box label="spoon" source="manual" occluded="0" xtl="581.33" ytl="480.00" xbr="682.67" ybr="914.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1026.67" ytl="434.67" xbr="1317.33" ybr="538.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1029.33" ytl="1578.67" xbr="1280.00" ybr="1781.33" z_order="0">
+    </box>
+    <polygon label="cup" source="manual" occluded="0" points="1216.00,216.00;1328.00,376.00;1301.33,506.67;1117.33,514.67;1037.33,421.33;1101.33,301.33" z_order="0">
+    </polygon>
+    <polygon label="cup" source="manual" occluded="0" points="1168.00,1469.33;1309.33,1597.33;1290.67,1698.67;1218.67,1786.67;1093.33,1794.67;1042.67,1650.67;1066.67,1570.67" z_order="0">
+    </polygon>
+    <box label="basket" source="manual" occluded="0" xtl="522.40" ytl="349.33" xbr="770.67" ybr="946.67" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="frame_000004.jpg" width="3840" height="2160">
+    <box label="spoon" source="manual" occluded="0" xtl="581.33" ytl="480.00" xbr="682.67" ybr="914.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1026.67" ytl="434.67" xbr="1317.33" ybr="538.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1029.33" ytl="1578.67" xbr="1280.00" ybr="1781.33" z_order="0">
+    </box>
+    <polygon label="cup" source="manual" occluded="0" points="1216.00,216.00;1328.00,376.00;1301.33,506.67;1117.33,514.67;1037.33,421.33;1101.33,301.33" z_order="0">
+    </polygon>
+    <polygon label="cup" source="manual" occluded="0" points="1168.00,1469.33;1309.33,1597.33;1290.67,1698.67;1218.67,1786.67;1093.33,1794.67;1042.67,1650.67;1066.67,1570.67" z_order="0">
+    </polygon>
+    <box label="basket" source="manual" occluded="0" xtl="522.40" ytl="349.33" xbr="770.67" ybr="946.67" z_order="0">
+    </box>
+  </image>
+  <image id="5" name="frame_000005.jpg" width="3840" height="2160">
+    <box label="spoon" source="manual" occluded="0" xtl="581.33" ytl="480.00" xbr="682.67" ybr="914.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1026.67" ytl="434.67" xbr="1317.33" ybr="538.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1029.33" ytl="1578.67" xbr="1280.00" ybr="1781.33" z_order="0">
+    </box>
+    <polygon label="cup" source="manual" occluded="0" points="1216.00,216.00;1328.00,376.00;1301.33,506.67;1117.33,514.67;1037.33,421.33;1101.33,301.33" z_order="0">
+    </polygon>
+    <polygon label="cup" source="manual" occluded="0" points="1168.00,1469.33;1309.33,1597.33;1290.67,1698.67;1218.67,1786.67;1093.33,1794.67;1042.67,1650.67;1066.67,1570.67" z_order="0">
+    </polygon>
+    <box label="basket" source="manual" occluded="0" xtl="522.40" ytl="349.33" xbr="770.67" ybr="946.67" z_order="0">
+    </box>
+  </image>
+  <image id="6" name="frame_000006.jpg" width="3840" height="2160">
+    <box label="spoon" source="manual" occluded="0" xtl="581.33" ytl="480.00" xbr="682.67" ybr="914.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1026.67" ytl="434.67" xbr="1317.33" ybr="538.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1029.33" ytl="1578.67" xbr="1280.00" ybr="1781.33" z_order="0">
+    </box>
+    <polygon label="cup" source="manual" occluded="0" points="1216.00,216.00;1328.00,376.00;1301.33,506.67;1117.33,514.67;1037.33,421.33;1101.33,301.33" z_order="0">
+    </polygon>
+    <polygon label="cup" source="manual" occluded="0" points="1168.00,1469.33;1309.33,1597.33;1290.67,1698.67;1218.67,1786.67;1093.33,1794.67;1042.67,1650.67;1066.67,1570.67" z_order="0">
+    </polygon>
+    <box label="basket" source="manual" occluded="0" xtl="522.40" ytl="349.33" xbr="770.67" ybr="946.67" z_order="0">
+    </box>
+  </image>
+  <image id="7" name="frame_000007.jpg" width="3840" height="2160">
+    <box label="spoon" source="manual" occluded="0" xtl="581.33" ytl="480.00" xbr="682.67" ybr="914.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1026.67" ytl="434.67" xbr="1317.33" ybr="538.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1029.33" ytl="1578.67" xbr="1280.00" ybr="1781.33" z_order="0">
+    </box>
+    <polygon label="cup" source="manual" occluded="0" points="1216.00,216.00;1328.00,376.00;1301.33,506.67;1117.33,514.67;1037.33,421.33;1101.33,301.33" z_order="0">
+    </polygon>
+    <polygon label="cup" source="manual" occluded="0" points="1168.00,1469.33;1309.33,1597.33;1290.67,1698.67;1218.67,1786.67;1093.33,1794.67;1042.67,1650.67;1066.67,1570.67" z_order="0">
+    </polygon>
+    <box label="basket" source="manual" occluded="0" xtl="522.40" ytl="349.33" xbr="770.67" ybr="946.67" z_order="0">
+    </box>
+    <box label="teapot" source="manual" occluded="0" xtl="32.00" ytl="306.67" xbr="496.00" ybr="693.33" z_order="0">
+    </box>
+  </image>
+  <image id="8" name="frame_000008.jpg" width="3840" height="2160">
+    <box label="spoon" source="manual" occluded="0" xtl="581.33" ytl="480.00" xbr="682.67" ybr="914.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1026.67" ytl="434.67" xbr="1317.33" ybr="538.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1029.33" ytl="1578.67" xbr="1280.00" ybr="1781.33" z_order="0">
+    </box>
+    <polygon label="cup" source="manual" occluded="0" points="1216.00,216.00;1328.00,376.00;1301.33,506.67;1117.33,514.67;1037.33,421.33;1101.33,301.33" z_order="0">
+    </polygon>
+    <polygon label="cup" source="manual" occluded="0" points="1168.00,1469.33;1309.33,1597.33;1290.67,1698.67;1218.67,1786.67;1093.33,1794.67;1042.67,1650.67;1066.67,1570.67" z_order="0">
+    </polygon>
+    <box label="basket" source="manual" occluded="0" xtl="522.40" ytl="349.33" xbr="770.67" ybr="946.67" z_order="0">
+    </box>
+    <box label="teapot" source="manual" occluded="0" xtl="1114.67" ytl="648.00" xbr="1578.67" ybr="1034.67" z_order="0">
+    </box>
+  </image>
+  <image id="9" name="frame_000009.jpg" width="3840" height="2160">
+    <box label="spoon" source="manual" occluded="0" xtl="581.33" ytl="480.00" xbr="682.67" ybr="914.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1026.67" ytl="434.67" xbr="1317.33" ybr="538.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1029.33" ytl="1578.67" xbr="1280.00" ybr="1781.33" z_order="0">
+    </box>
+    <polygon label="cup" source="manual" occluded="0" points="1216.00,216.00;1328.00,376.00;1301.33,506.67;1117.33,514.67;1037.33,421.33;1101.33,301.33" z_order="0">
+    </polygon>
+    <polygon label="cup" source="manual" occluded="0" points="1168.00,1469.33;1309.33,1597.33;1290.67,1698.67;1218.67,1786.67;1093.33,1794.67;1042.67,1650.67;1066.67,1570.67" z_order="0">
+    </polygon>
+    <box label="basket" source="manual" occluded="0" xtl="522.40" ytl="349.33" xbr="770.67" ybr="946.67" z_order="0">
+    </box>
+    <box label="teapot" source="manual" occluded="0" xtl="1653.33" ytl="597.33" xbr="2117.33" ybr="984.00" z_order="0">
+    </box>
+  </image>
+  <image id="10" name="frame_000010.jpg" width="3840" height="2160">
+    <box label="spoon" source="manual" occluded="0" xtl="581.33" ytl="480.00" xbr="682.67" ybr="914.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1026.67" ytl="434.67" xbr="1317.33" ybr="538.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1029.33" ytl="1578.67" xbr="1280.00" ybr="1781.33" z_order="0">
+    </box>
+    <polygon label="cup" source="manual" occluded="0" points="1216.00,216.00;1328.00,376.00;1301.33,506.67;1117.33,514.67;1037.33,421.33;1101.33,301.33" z_order="0">
+    </polygon>
+    <polygon label="cup" source="manual" occluded="0" points="1168.00,1469.33;1309.33,1597.33;1290.67,1698.67;1218.67,1786.67;1093.33,1794.67;1042.67,1650.67;1066.67,1570.67" z_order="0">
+    </polygon>
+    <box label="basket" source="manual" occluded="0" xtl="522.40" ytl="349.33" xbr="770.67" ybr="946.67" z_order="0">
+    </box>
+    <box label="teapot" source="manual" occluded="0" xtl="1709.33" ytl="608.00" xbr="2173.33" ybr="994.67" z_order="0">
+    </box>
+  </image>
+  <image id="11" name="frame_000011.jpg" width="3840" height="2160">
+    <box label="spoon" source="manual" occluded="0" xtl="581.33" ytl="480.00" xbr="682.67" ybr="914.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1026.67" ytl="434.67" xbr="1317.33" ybr="538.67" z_order="0">
+    </box>
+    <box label="spoon" source="manual" occluded="0" xtl="1029.33" ytl="1578.67" xbr="1280.00" ybr="1781.33" z_order="0">
+    </box>
+    <polygon label="cup" source="manual" occluded="0" points="1216.00,216.00;1328.00,376.00;1301.33,506.67;1117.33,514.67;1037.33,421.33;1101.33,301.33" z_order="0">
+    </polygon>
+    <polygon label="cup" source="manual" occluded="0" points="1168.00,1469.33;1309.33,1597.33;1290.67,1698.67;1218.67,1786.67;1093.33,1794.67;1042.67,1650.67;1066.67,1570.67" z_order="0">
+    </polygon>
+    <box label="basket" source="manual" occluded="0" xtl="522.40" ytl="349.33" xbr="770.67" ybr="946.67" z_order="0">
+    </box>
+    <box label="teapot" source="manual" occluded="0" xtl="1709.33" ytl="608.00" xbr="2173.33" ybr="994.67" z_order="0">
+    </box>
+  </image>
+</annotations>

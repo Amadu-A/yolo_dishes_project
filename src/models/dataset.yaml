@@ -1,0 +1,8 @@
+# src/models/dataset.yaml
+
+train: ../../data/dataset/train/images
+val: ../../data/dataset/val/images
+test: ../../data/dataset/test/images
+
+nc: 7  # <-- пример: dishes, cup, fork, knife, etc.  Кол-во классов.
+names: [dish, cup, fork, knife, spoon, teapot, basket]
