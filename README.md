@@ -21,6 +21,7 @@ yolo_dishes_project/
 │   ├── figures/          # графики и картинки для отчёта
 │   └── report.md         # итоговый отчёт
 ├── runs/                 # создаётся Ultralytics-ом
+├── results/              # bounding box video
 ├── src/
 │   ├── __init__.py
 │   ├── config.py
@@ -31,6 +32,7 @@ yolo_dishes_project/
 │   ├── models/
 │   │   ├── train.py
 │   │   ├── evaluate.py
+│   │   ├── infer_video.py
 │   │   └── dataset.yaml   # конфиг для YOLO
 │   ├── utils/
 │   │   ├── logger.py
@@ -65,6 +67,14 @@ yolo_dishes_project/
        --weights runs/exp11_s/weights/best.pt</code>	метрики metrics.json
 8.	<b>Tuning ×2</b>	правим config.py, повторяем 7-8	3 эксперимента, сравнительная таблица
 9.	<b>Отчёт</b>	<code>python -m src.report.make_report</code>	report/report.md, графики report/figures
+10. Обработать видео и вернуть его с bounding box <code>python -m src.main infer</code>.
+Можно с настраиваемыми параметрами: <code>python -m src.main infer \
+  --video data/raw/video.MOV \
+  --weights runs/exp11_s/weights/best.pt \
+  --out results/video_boxes.mp4 \
+  --img 960 \
+  --conf 0.3 \
+  --batch 16</code>
 
 
 ## YOLOv11 Dish Detection Pipeline

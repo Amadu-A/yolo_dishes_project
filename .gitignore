@@ -148,6 +148,10 @@ data/raw/*.avi
 data/raw/*.mkv
 data/raw/*.webm
 
+results/*.*
+results/
+.results/
+
 # weights
 *.pt
 **/*.pt
